@@ -12,6 +12,8 @@ http://hack.bckdr.in/LOSSLESS/encrypted.png
 * To enhance the clarity of the difference, we used an online Steganographic Comparator `https://futureboy.us/stegano/compinput.html` giving us an image that looks like `out.png`
 * It was only a matter of seconds that we realized these may be binary strings Blue - 1 and Black - 0. Moreover, they were of 7 bits (Vertically). That further provoked the thought of them fitting in ASCII representation. (<128)
 * We wrote a quick script to read the binary numbers and got the output `The flag is SHA256{-----------------------------}`.
+
+
 * ![Original Image](./original.png)
 * ![Encrypted Image](./encrypted.png)
-* ![Amplified Difference](./out.png)
+* ![Amplified Difference](./out.jpg)
